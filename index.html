@@ -28,26 +28,61 @@
         <link rel="stylesheet" href="./css/framework.css">
         <link rel="stylesheet" href="./css/style.css">
 
-        <title>Document</title>
+        <title>Simon Says</title>
         
     </head>
 
     <body>
         
-        <!-- ! Header Start -->
-        <header>
-
-        </header>
-
         <!-- ! Main Start -->
         <main>
 
+            <div class="container">
+
+                <h2 class="text-uppercase mt-2 mb-2">Simon Says: </h2>
+
+                <h5 class="mt-2 mb-4 text-uppercase"> Testiamo la tua memoria, premi il pulsante start per iniziare! </h5>
+
+                <div class="card mb-3">
+                    
+                  <div class="card-body">
+
+                    <h5 class="card-title text-uppercase">Timer</h5>
+                    <div id="timer" class="card-text">30</div>
+                    
+                  </div>
+
+                </div>
+
+                <div class="card">
+
+                  <div class="card-body">
+
+                    <h5 class="card-title text-uppercase">Numeri</h5>
+                    <div id="numbers" class="card-text"></div>
+
+                  </div>
+
+                </div>
+
+                <div class="result-card mt-4">
+
+                  <div class="card">
+
+                    <div class="card-body">
+                    <h5 class="card-title text-uppercase">Risultato</h5>
+                    <div id="result" class="card-text"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <button id="start-btn" class="btn mt-3">Start</button>
+
+            </div>
+
         </main>
-
-        <!-- ! Footer Start -->
-        <footer>
-
-        </footer>
 
         <!-- ! Java Script -->
         <script type="text/javascript" src="./js/script.js"></script>
