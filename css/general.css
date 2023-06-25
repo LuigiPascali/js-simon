@@ -8,11 +8,11 @@
 
 :root {
     /* Color Palette */
-   
+  
     --light_color:#FFFFFF ;
     --dark_color: #0A0A0A ;
-    --primary_color: #FFFEEF;
-    --secondary_color: #455561;
-    --hover_color: #FEFEE9;
+    --details_color: #3083DC;
+    --secondary_color: #E5DADA;
+    
 }
 
