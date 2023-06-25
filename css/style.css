@@ -22,4 +22,4 @@ h5 {color: var(--secondary_color);}
 
 .btn {font-size: 1.125rem;font-weight: bold;text-transform: uppercase;padding: .625rem 1.25rem;border-radius: .3125rem;transition:0.3s ease; box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.1); color: var(--light_color);background-color: var(--secondary_color);}
 
-.btn:hover {transform: scale(1.1); color: var(--secondary_color); background-color: var(--hover_color);}
+.btn:hover {color: var(--secondary_color); background-color: var(--hover_color);}
